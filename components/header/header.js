@@ -1,9 +1,9 @@
-console.log('hello from header')
-
-document.body.insertAdjacentHTML('beforeend', 
+// function logoFunc() {
+    document.body.insertAdjacentHTML('beforeend', 
 `
 <header>
-    LOGO
+    <div id="LOGO">LOGO</div>
 </header>
 
 `)
+// }
